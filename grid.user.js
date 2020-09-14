@@ -819,7 +819,7 @@
       }
 
       const ownVideoPreview = document.querySelector('[data-fps-request-screencast-cap]')
-      const buttons = ownVideoPreview && ownVideoPreview.parentElement.parentElement.parentElement.parentElement
+      const buttons = ownVideoPreview && ownVideoPreview.parentElement.parentElement.parentElement
       // If user has other grid view extensions installed, warn them
       if (buttons && !buttons.__grid_ran2) {
         buttons.__grid_ran2 = true
@@ -859,8 +859,8 @@
           updateSetting('enabled', !settings['enabled'])
         }
 
-        setTimeout(() =>buttons.prepend(toggleButton),5000)
-        // buttons.prepend(toggleButton)
+        // setTimeout(() =>buttons.prepend(toggleButton),5000)
+        buttons.prepend(toggleButton)
 
         toggleButton.innerHTML = `
           <svg viewBox="0 0 24 24">${gridOff}</svg>
