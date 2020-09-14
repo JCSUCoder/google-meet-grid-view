@@ -859,7 +859,6 @@
           updateSetting('enabled', !settings['enabled'])
         }
 
-        // setTimeout(() =>buttons.prepend(toggleButton),5000)
         buttons.prepend(toggleButton)
 
         toggleButton.innerHTML = `
