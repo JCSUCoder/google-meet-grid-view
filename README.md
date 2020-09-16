@@ -10,9 +10,6 @@ Chrome Extension: https://chrome.google.com/webstore/detail/dakebdbeofhmlnmjlmhj
 ## Official Releases (Broken)
 Chrome Extension: https://chrome.google.com/webstore/detail/kklailfgofogmmdlhgmjgenehkjoioip
 
-## Donation: Support Grid View!
-The extension continues working due to continuous maintenance work (in order to keep up with changes from Google). If it is useful for your daily life and you're happy about it, consider making a small donation at https://paypal.me/SimoneMarullo 🙃
-
 ## Privacy Policy
 
 This extension does not track any user data.  
